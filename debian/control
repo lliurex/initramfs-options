@@ -1,0 +1,13 @@
+Source: lliurex-initramfs-options
+Section: admin 
+Priority: optional
+Maintainer: lliurex@gva.es 
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://www.lliurex.net
+
+Package: lliurex-initramfs-options
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Initramfs options from LliureX 
+ Modify compress method for initramfs 
