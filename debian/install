@@ -1,1 +1,1 @@
-opts/* /etc/initramfs-tools/initramfs.conf
+opts/* /etc/initramfs-tools/conf.d
